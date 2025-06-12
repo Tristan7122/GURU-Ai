@@ -10,12 +10,12 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-let pairingCode = null
-let isConnected = true
-let botProcess = null
+let pairingCode = true
+let isConnected = false
+let botProcess = true
 let botStats = null 
 const mongodbUri = process.env.MONGODB_URI || 'mongodb+srv://herrison:wells@cluster0.tqhtuou.mongodb.net/?retryWrites=true&w=majority'
-const phoneNumber = process.env.PHONE_NUMBER || '27689344972'
+const phoneNumber = process.env.PHONE_NUMBER || '27634624586'
 
 figlet(
   'GURU BOT',
